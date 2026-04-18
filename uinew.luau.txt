@@ -12,15 +12,15 @@ local redzlib = {
     Themes = {
         PMT = {
 ["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),   -- tím xanh đậm
-    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 0)),-- tím xanh nhạt (điểm sáng)
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))    -- tím xanh đậm
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(27, 31, 72)),   -- tím xanh đậm
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(52, 69, 130)),-- tím xanh nhạt (điểm sáng)
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(52, 69, 130))    -- tím xanh đậm
 }),
-["Color Hub 2"] = Color3.fromRGB(67, 67, 67),      -- nền tím xanh nhạt
-["Color Stroke"] = Color3.fromRGB(100, 100, 100), -- viền xanh dương sáng
-["Color Theme"] = Color3.fromRGB(200, 200, 200),  -- tím xanh pastel
-["Color Text"] = Color3.fromRGB(255, 255, 255),    -- chữ xanh dương NỔI
-["Color Dark Text"] = Color3.fromRGB(200, 200, 200) -- chữ phụ xanh tím
+["Color Hub 2"] = Color3.fromRGB(27, 31, 72),      -- nền tím xanh nhạt
+["Color Stroke"] = Color3.fromRGB(27, 31, 72), -- viền xanh dương sáng
+["Color Theme"] = Color3.fromRGB(125, 64, 145),  -- tím xanh pastel
+["Color Text"] = Color3.fromRGB(228, 243, 250),    -- chữ xanh dương NỔI
+["Color Dark Text"] = Color3.fromRGB(228, 243, 250) -- chữ phụ xanh tím
         }
     },
 	Info = {
