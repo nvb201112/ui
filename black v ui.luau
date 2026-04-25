@@ -1225,7 +1225,7 @@ end)
 
 local function ButtonFrame(Instance, Title, Description, HolderSize)
 	local TitleL = InsertTheme(Create("TextLabel", {
-		Font = Enum.Font.Arcade,
+		Font = Enum.Font.Cartoon,
 		TextColor3 = Theme["Color Text"],
 		Size = UDim2.new(1, -20),
 		AutomaticSize = "Y",
@@ -1240,7 +1240,7 @@ local function ButtonFrame(Instance, Title, Description, HolderSize)
 	}), "Text")
 	
 	local DescL = InsertTheme(Create("TextLabel", {
-		Font = Enum.Font.Arcade,
+		Font = Enum.Font.Cartoon,
 		TextColor3 = Theme["Color Dark Text"],
 		Size = UDim2.new(1, -20),
 		AutomaticSize = "Y",
@@ -1412,7 +1412,7 @@ bg.Name = "Background"
 bg.Parent = MainFrame
 bg.Size = UDim2.new(1, 0, 1, 0)
 bg.Position = UDim2.new(0, 0, 0, 0)
-bg.Image = "rbxassetid://72703300150644" -- đổi ID ảnh của bạn
+bg.Image = "rbxassetid://84047635138708" -- đổi ID ảnh của bạn
 bg.BackgroundTransparency = 1
 bg.ImageTransparency = 0.2
 bg.ScaleType = Enum.ScaleType.Crop
@@ -1454,7 +1454,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 		TextSize = 12,
 		TextColor3 = Theme["Color Text"],
 		BackgroundTransparency = 1,
-		Font = Enum.Font.Arcade,
+		Font = Enum.Font.Cartoon,
 		Name = "Title"
 	}, {
 		InsertTheme(Create("TextLabel", {
@@ -1468,7 +1468,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 			TextXAlignment = "Left",
 			TextYAlignment = "Bottom",
 			TextSize = 8,
-			Font = Enum.Font.Arcade,
+			Font = Enum.Font.Cartoon,
 			Name = "SubTitle"
 		}), "DarkText")
 	}), "Text")
@@ -1663,7 +1663,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 			AnchorPoint = Vector2.new(0.5, 0.5)
 		}, {
 			InsertTheme(Create("TextLabel", {
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				Size = UDim2.new(1, 0, 0, 20),
 				Text = DTitle,
 				TextXAlignment = "Left",
@@ -1673,7 +1673,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				BackgroundTransparency = 1
 			}), "Text"),
 			InsertTheme(Create("TextLabel", {
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				Size = UDim2.new(1, -25),
 				AutomaticSize = "Y",
 				Text = DText,
@@ -1726,7 +1726,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 			Make("Corner", Button)
 			SetProps(Button, {
 				Text = Name,
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextColor3 = Theme["Color Text"],
 				TextSize = 12
 			})
@@ -1781,7 +1781,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 			Size = UDim2.new(1, TIcon and -25 or -15, 1),
 			Position = UDim2.fromOffset(TIcon and 25 or 15),
 			BackgroundTransparency = 1,
-			Font = Enum.Font.Arcade,
+			Font = Enum.Font.Cartoon,
 			Text = TName,
 			TextColor3 = Theme["Color Text"],
 			TextSize = 10,
@@ -2073,7 +2073,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				AnchorPoint = Vector2.new(0.5, 0.5),
 				Position = UDim2.new(0.5, 0, 0.5, 0),
 				BackgroundTransparency = 1,
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextScaled = true,
 				TextColor3 = Theme["Color Text"],
 				Text = "..."
@@ -2293,7 +2293,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 						Position = UDim2.new(0, 10),
 						Text = Name,
 						TextColor3 = Theme["Color Text"],
-						Font = Enum.Font.Arcade,
+						Font = Enum.Font.Cartoon,
 						TextXAlignment = "Left",
 						BackgroundTransparency = 1,
 						TextTransparency = 0.4
@@ -2444,7 +2444,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				Position = UDim2.new(0, 0, 0.5),
 				BackgroundTransparency = 1,
 				TextColor3 = Theme["Color Text"],
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextSize = 12
 			}), "Text")
 			
@@ -2554,7 +2554,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				AnchorPoint = Vector2.new(0.5, 0.5),
 				Position = UDim2.new(0.5, 0, 0.5, 0),
 				BackgroundTransparency = 1,
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextScaled = true,
 				TextColor3 = Theme["Color Text"],
 				ClearTextOnFocus = TClearText,
@@ -2610,7 +2610,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				Size = UDim2.new(1, 0, 0, 15),
 				Position = UDim2.new(0, 5),
 				TextColor3 = Color3.fromRGB(40, 150, 255),
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextXAlignment = "Left",
 				BackgroundTransparency = 1,
 				TextSize = 10,
@@ -2634,7 +2634,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 			local LTitle = InsertTheme(Create("TextLabel", FrameHolder, {
 				Size = UDim2.new(1, -52, 0, 15),
 				Position = UDim2.new(0, 44, 0, 7),
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextColor3 = Theme["Color Text"],
 				TextXAlignment = "Left",
 				BackgroundTransparency = 1,
@@ -2647,7 +2647,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				Position = UDim2.new(0, 44, 0, 22),
 				TextWrapped = "Y",
 				AutomaticSize = "Y",
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextColor3 = Theme["Color Dark Text"],
 				TextXAlignment = "Left",
 				BackgroundTransparency = 1,
@@ -2660,7 +2660,7 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 				AnchorPoint = Vector2.new(0.5, 1),
 				Position = UDim2.new(0.5, 0, 1, -7),
 				Text = "Copy Link",
-				Font = Enum.Font.Arcade,
+				Font = Enum.Font.Cartoon,
 				TextSize = 12,
 				TextColor3 = Color3.fromRGB(220, 220, 220),
 				BackgroundColor3 = Color3.fromRGB(50, 150, 50)
