@@ -1418,7 +1418,7 @@ bg.ImageTransparency = 0.2
 bg.ScaleType = Enum.ScaleType.Crop
 bg.ZIndex = 0
 bg.Active = true
-bg.Selectable = false
+bg.Selectable = true
 
 -- đảm bảo MainFrame ở trên bg
 MainFrame.ZIndex = 1
@@ -1576,13 +1576,13 @@ local DropdownHolder = Create("Folder", ScreenGui, {
 	local Window, FirstTab = {}, false
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
-			Title = "Tuấn Anh IOS",
-			Text = "Mày Tắt Script Của Bố Mày Có Việc Gì Không ?",
+			Title = "Ui",
+			Text = "Close wimdow",
 			Options = {
-				{"Tắt Ạ", function()
+				{"Close", function()
 					ScreenGui:Destroy()
 				end},
-				{"Không Tắt Ạ"}
+				{"Keep"}
 			}
 		})
 	end
