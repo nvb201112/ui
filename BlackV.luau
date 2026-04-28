@@ -22,8 +22,8 @@ local bearlib = {
             ["Color Text"] = Color3.fromRGB(255, 255, 255),
             ["Color Dark Text"] = Color3.fromRGB(255, 255, 255),
             ["Color Discord Text"] = Color3.fromRGB(255, 255, 255),
-            ["Color Discord Stats"] = Color3.fromRGB(200, 200, 200),
-            ["Color Discord Border"] = Color3.fromRGB(200, 200, 200),
+            ["Color Discord Stats"] = Color3.fromRGB(255, 255, 255),
+            ["Color Discord Border"] = Color3.fromRGB(0, 0, 0),
             ["Color Profile Border"] = Color3.fromRGB(0, 0, 0),
             ["Color Card Border"] = Color3.fromRGB(0, 0, 0),
             ["Color Toggle On"] = Color3.fromRGB(200, 200, 200),
@@ -3054,10 +3054,10 @@ function bearlib:MakeWindow(Configs)
         end)
         
         local Flag = Instance.new("ImageLabel")
-        Flag.Name = "VNFlagIcon"
+        Flag.Name = "FlagIcon"
         Flag.Parent = ToggleButton
         Flag.BackgroundTransparency = 1
-        Flag.Image = "rbxassetid://113380899193099"
+        Flag.Image = "rbxassetid://"
         Flag.Size = UDim2.fromOffset(28, 18)
         Flag.AnchorPoint = Vector2.new(0.5, 0.5)
         Flag.Position = UDim2.new(1, -2, 0, 2)
