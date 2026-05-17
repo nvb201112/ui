@@ -492,7 +492,7 @@ function Library:Window(Args)
         BorderColor3 = Color3.fromRGB(0, 0, 0),
         BorderSizePixel = 0,
         Size = UDim2.new(0, 20, 0, 20),
-        Image = "rbxassetid://100865348188048",
+        Image = "rbxassetid://97540516331525",
         ImageColor3 = Color3.fromRGB(234, 234, 234),
         LayoutOrder = 1
     })
@@ -538,7 +538,7 @@ function Library:Window(Args)
         Size = UDim2.new(1, 0, 0, 14),
         Font = Enum.Font.GothamSemibold,
         RichText = true,
-        Text = "Expires at",
+        Text = "Black V Hub",
         TextColor3 = Color3.fromRGB(234, 234, 234),
         TextSize = 13,
         TextStrokeTransparency = 0.699999988079071,
@@ -567,7 +567,7 @@ function Library:Window(Args)
         Size = UDim2.new(1, 0, 0, 10),
         Font = Enum.Font.GothamMedium,
         RichText = true,
-        Text = "00:00:00 Hours",
+        Text = "",
         TextColor3 = Color3.fromRGB(255, 255, 255),
         TextSize = 10,
         TextStrokeTransparency = 0.699999988079071,
